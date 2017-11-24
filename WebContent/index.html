@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>h5天气预报app</title>
+		<script src="js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+		<section id="top_half" class="qz-top-half"></section>
+		<section id="below_half" class="qz-below-half"></section>
+		<section id="extends" class="qz-extends"></section>
+		<script type="text/javascript">
+			$('#top_half').load('section/qz-top-half/qz-top-half.html');
+			$('#below_half').load('section/qz-below-half/qz-below-half.html');
+			$('#extends').append().load('section/qz-extends/qz-extends.html');
+		</script>
+	</body>
+</html>
